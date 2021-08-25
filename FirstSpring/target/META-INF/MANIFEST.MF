@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.6.3
+Built-By: 91737
+Build-Jdk: 11.0.11
+Class-Path: libs/postgresql-42.2.23.jar libs/checker-qual-3.5.0.jar
+Main-Class: com.sf.Demo
+

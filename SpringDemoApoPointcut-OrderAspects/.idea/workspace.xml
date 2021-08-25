@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5ef5080-b7b4-4243-a46a-4e83ec45c62e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Practice folder/Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice folder/UsernamePassword_15/UsernamePassword_15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_10/Generics/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_11/Scope/Scope2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_14/ReadingWriting/ReadingWriting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_15/CreatingThread(Extending)/CreatingThread(Extending).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_16/Stream/Stream1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_17/Challenge/Challenge1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_20/Network/EchoServer/EchoServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_6/SumCalculator/SumCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section_8/ArrayList/ArrayList1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mapping/Mapping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sampleDI/sampleDI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_18/JuintTest/JuintTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_18/JuintTest/JuintTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_18/JunitChallenge/JunitChallenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_18/JunitChallenge/JunitChallenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/.idea/libraries/sqlite_jdbc_3_30_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_19/TestDB/.idea/libraries/sqlite_jdbc_3_30_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/TestDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_19/TestDB/TestDB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/out/production/TestDB/com/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_19/TestDB/out/production/TestDB/com/practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/out/production/TestDB/com/practice/testjava.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/out/production/TestDB/com/practice/testjava.db;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/src/com/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_19/TestDB/src/com/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_19/TestDB/src/com/practice/testjava.db;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section_5/Switch/Switch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section_5/Switch/Switch.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1wFwP9cdfIhuggBXyZYCcfSpekm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringDemoApoPointcut-OrderAspects-JoinPoint" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Company\XSPRING\SpringDemoApo\src\com\sf\aopdemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainDemoApp">
+    <configuration name="AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sf.AnnotationDemoApp" />
+      <module name="AnnotationIoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sf.JavaConfigDemoApp" />
+      <module name="AnnotationIoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sf.Main" />
+      <module name="AnnotationIoC" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sf.aopdemo.MainDemoApp" />
+      <module name="AnnotationIoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sf.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AnnotationDemoApp" />
+      <item itemvalue="Application.JavaConfigDemoApp" />
+      <item itemvalue="Application.MainDemoApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainDemoApp" />
+        <item itemvalue="Application.JavaConfigDemoApp" />
+        <item itemvalue="Application.AnnotationDemoApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5ef5080-b7b4-4243-a46a-4e83ec45c62e" name="Default Changelist" comment="" />
+      <created>1628067620575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628067620575</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

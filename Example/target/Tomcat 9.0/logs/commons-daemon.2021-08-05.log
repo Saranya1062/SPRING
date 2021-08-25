@@ -1,0 +1,28 @@
+[2021-08-05 11:31:56] [info]  [ 7600] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-08-05 11:31:56] [info]  [ 7600] Installing service 'Tomcat9' name 'Apache Tomcat 9.0 Tomcat9'.
+[2021-08-05 11:31:56] [info]  [ 7600] Service 'Tomcat9' installed.
+[2021-08-05 11:31:56] [info]  [ 7600] Apache Commons Daemon procrun finished.
+[2021-08-05 11:31:57] [info]  [19852] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-08-05 11:31:57] [info]  [19852] Updating service...
+[2021-08-05 11:31:57] [info]  [19852] Updated service 'Tomcat9'.
+[2021-08-05 11:31:57] [info]  [19852] Finished updating service 'Tomcat9'.
+[2021-08-05 11:31:57] [info]  [19852] Apache Commons Daemon procrun finished.
+[2021-08-05 11:31:58] [info]  [ 9108] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-08-05 11:31:58] [info]  [ 9108] Updating service...
+[2021-08-05 11:31:58] [info]  [ 9108] Updated service 'Tomcat9'.
+[2021-08-05 11:31:58] [info]  [ 9108] Finished updating service 'Tomcat9'.
+[2021-08-05 11:31:58] [info]  [ 9108] Apache Commons Daemon procrun finished.
+[2021-08-05 11:31:58] [info]  [ 2648] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-08-05 11:31:58] [info]  [ 2648] Updating service...
+[2021-08-05 11:31:58] [info]  [ 2648] Updated service 'Tomcat9'.
+[2021-08-05 11:31:58] [info]  [ 2648] Finished updating service 'Tomcat9'.
+[2021-08-05 11:31:58] [info]  [ 2648] Apache Commons Daemon procrun finished.
+[2021-08-05 11:31:58] [info]  [ 4104] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-08-05 11:31:58] [info]  [ 4104] Updating service...
+[2021-08-05 11:31:58] [info]  [ 4104] Updated service 'Tomcat9'.
+[2021-08-05 11:31:58] [info]  [ 4104] Finished updating service 'Tomcat9'.
+[2021-08-05 11:31:58] [info]  [ 4104] Apache Commons Daemon procrun finished.
+[2021-08-05 11:32:03] [info]  [19156] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2021-08-05 11:32:03] [info]  [19156] Running Service 'Tomcat9'...
+[2021-08-05 11:32:03] [info]  [21324] Starting service...
+[2021-08-05 11:32:05] [info]  [21324] Service started in 1514 milliseconds.
