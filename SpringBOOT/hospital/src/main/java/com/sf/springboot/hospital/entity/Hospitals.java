@@ -4,6 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="hospitals")
@@ -31,6 +32,7 @@ public class Hospitals {
         this.hname = hname;
         this.location = location;
     }
+
 
     public int getHid() {
         return hid;

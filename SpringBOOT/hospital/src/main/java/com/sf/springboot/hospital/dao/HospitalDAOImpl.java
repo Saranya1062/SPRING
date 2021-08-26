@@ -2,12 +2,12 @@ package com.sf.springboot.hospital.dao;
 
 import com.sf.springboot.hospital.entity.Hospitals;
 import org.hibernate.Session;
-import org.hibernate.query.NativeQuery;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.transaction.Transactional;
 import java.io.Serializable;
 import java.util.List;
@@ -38,7 +38,7 @@ public class HospitalDAOImpl implements HospitalDAO {
 
     @Override
     @Transactional
-    public Hospitals findName(int h_id) {
+    public Hospitals findContent(String h_id) {
 
         Session currentSession = entityManager.unwrap(Session.class);
 
