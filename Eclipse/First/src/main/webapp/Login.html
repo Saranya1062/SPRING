@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+	function validate() {
+		var k1 = document.getElementById("n1").value.trim();
+		var k2 = document.getElementById("n2").value.trim();
+
+		if (k1 == null || k1 == "" || k2 == null || k2 == "") {
+			alert("Please enter the username and password");
+			return false;
+		} else if (k1.length < 6) {
+			alert("Username must contains atleast 6 characters");
+			return false;
+		} else if (k1.length > 15) {
+			alert("Username must not contains above 15 characters");
+			return false;
+		} else if (k2.length < 6) {
+			alert("Please use Strong password");
+			return false;
+		} else if (k2.length > 15) {
+			alert("Password Should not greater tham 15");
+			return false;
+		} else {
+			return true;
+		}
+	}
+</script>
+</head>
+<body>
+	<form onsubmit="return validate()" action="add">
+		<label>User Name</label><br>
+		<br> <input type="text" id="n1" name="num1"><br>
+		<br> <label>Password</label><br>
+		<br> <input type="password" id="n2" name="num2"><br>
+		<br>
+		<button type="submit">login</button>
+		<button type="submit">
+			<a href="Register.html">Register</a>
+		</button>
+		<script>
+			index.js
+		</script>
+	</form>
+
+
+</body>
+</html>
