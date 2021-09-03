@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>HOSPITAL SAMPLE</h2>
-
-<h3>All Hospitals:</h3>
-<div id="demo">
-    <button type="button" onclick="setTimeout(getAll, 3000);">Get All</button><br><br>
-</div>
-
-<h3>Hospitals by Id:</h3>
-<div id="id">
-    <input type="text" id="hid">
-    <button type="button" onclick="setTimeout(getId, 6000);">Get By Id</button><br><br>
-</div>
-
-<h3>Hospitals by Name:</h3>
-<div id="name">
-    <input type="text" id="hname">
-    <button type="button" onclick="setTimeout(getName, 10000);">Get By Name</button>
-</div>
-
-<br><br><br>
-<h2>NASA</h2>
-<div id="nasa">
-    <button type="button" onclick="getNasaPage()">Get Nasa Content</button><br><br>
-</div>
-
-<script>
 function getAll() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
@@ -43,7 +13,7 @@ function getId() {
   xhttp.onload = function() {
     document.getElementById("id").innerHTML = this.responseText;
   }
-  xhttp.open("GET", "http://localhost:8080/api/hospital/id/"+id,true);
+  xhttp.open("GET", "http://localhost:8080/api/hospital/id/"+id);
   xhttp.send();
 }
 
@@ -53,7 +23,7 @@ function getName() {
   xhttp.onload = function() {
     document.getElementById("name").innerHTML = this.responseText;
   }
-  xhttp.open("GET", "http://localhost:8080/api/hospital/name/"+name,true);
+  xhttp.open("GET", "http://localhost:8080/api/hospital/name/"+name);
   xhttp.send();
 }
 
@@ -65,7 +35,3 @@ function getNasaPage() {
   xhttp.open("GET", "https://api.nasa.gov/planetary/apod?api_key=gNXthHIrQL4lORIfdkPBdhWFh47bA0Lps9Lie0fe");
   xhttp.send();
 }
-</script>
-
-</body>
-</html>

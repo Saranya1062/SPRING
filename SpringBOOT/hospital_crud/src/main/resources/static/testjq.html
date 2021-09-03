@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>JQuery</h2>
+
+<h3>All Hospitals:</h3>
+<div id="demo">
+    <button>Get All</button><br><br>
+</div>
+
+<script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#demo").load("http://localhost:8080/api/hospital");
+      });
+    });
+</script>
+
+</body>
+</html>
