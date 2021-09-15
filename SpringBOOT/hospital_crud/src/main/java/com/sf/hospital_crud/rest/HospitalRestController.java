@@ -4,7 +4,6 @@ import com.sf.hospital_crud.dao.HospitalDAO;
 import com.sf.hospital_crud.entity.Hospitals;
 import com.sf.hospital_crud.service.HospitalService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -37,7 +36,7 @@ public class HospitalRestController {
     }
 
     @GetMapping("/hospitals/{hospitalId}")
-    public Hospitals getHospital(@PathVariable int hospitalId) {
+    public Hospitals findById(@PathVariable int hospitalId) {
         Hospitals theHospital = hospitalService.findById(hospitalId);
 
         if (theHospital == null) {
