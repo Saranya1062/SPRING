@@ -21,23 +21,22 @@ public class HospitalDAOTest {
 
     @Test
     public void findAll() {
-        List<Hospitals> hos=null;
-        hos=hospitalDAO.findAll();
-        assertEquals(5,hos.size());
+        List<Hospitals> hos = hospitalDAO.findAll();
         assertNotNull(hos);
+        assertEquals(5, hos.size());
     }
 
     @Test
     public void findById() {
-        int hid=1;
-        Hospitals hospitals=hospitalDAO.findById(hid);
-        assertEquals(1,hospitals.getHid());
-        assertNotNull(hospitals.getHid());
+        int hid = 1;
+        Hospitals hospitals = hospitalDAO.findById(hid);
+        assertNotNull(hospitals);
+        assertEquals(1, hospitals.getHid());
     }
 
     @Test
     public void save() {
-       Hospitals hospitals=new Hospitals(6,"Apollo","Chennai");
+       Hospitals hospitals = new Hospitals(6,"Apollo","Chennai");
        hospitalDAO.save(hospitals);
     }
 

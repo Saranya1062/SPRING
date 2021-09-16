@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("/api")
@@ -30,21 +31,23 @@ public class HospitalRestController {
         return hospitalService.findAll();
     }
 
-//    @Value("#{'${spring.demo.hospital_ids_enabled}'.split(',')}")
     @Value("${spring.demo.hospital_ids_enabled}")
-    private String h_id;
+    private String data;
 
 
     @GetMapping("/name")
-    public Hospitals getHospitalName() {
+    public List<String> getName() {
+        return hospitalDAO.findName(data);
+    }
 
-//        for(int i=0;i<=h_id.length;i++) {
-//            return hospitalDAO.findContent(h_id);
-//        }
+    @GetMapping("/content")
+    public Hospitals getContent() {
+        return hospitalDAO.findContent(data);
+    }
 
-      // return h_id;
-       return hospitalDAO.findContent(h_id);
-
+    @GetMapping("/con")
+    public List<String> getCon() {
+        return hospitalDAO.findCon(data);
     }
 
 }

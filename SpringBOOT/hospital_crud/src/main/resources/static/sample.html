@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+</head>
+<body>
+
+<h2>CREATE TABLE</h2>
+
+<div id="table">
+    <label>Enter no. of rows:</label>
+    <input type="text" id="row"><br><br>
+    <button type="button" onclick="getTable()">create</button>
+</div>
+
+<script>
+function getTable() {
+   var n=document.getElementById("row").value;
+<!--   if(typeof n != 'number'){-->
+   if(isNaN(n)){
+    alert("Invalid input");
+    window.location.reload();
+    return false;
+   }
+   else if(n=="")
+   {
+    alert("Please enter no. of rows");
+   }
+   else{
+   var text='<table border="1">';
+   for(var i=1;i<=n;i++)
+   {
+     text+='<tr><td>';
+     text+=i;
+     text+='</td></tr>';
+   }
+   text+='</table>';
+   document.getElementById("table").innerHTML=text;
+   }
+}
+
+</script>
+
+</body>
+</html>

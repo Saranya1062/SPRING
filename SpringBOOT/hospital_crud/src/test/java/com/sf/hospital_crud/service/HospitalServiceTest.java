@@ -21,18 +21,17 @@ public class HospitalServiceTest {
 
     @Test
     public void findAll() {
-        List<Hospitals> hos=null;
-        hos=hospitalService.findAll();
-        assertEquals(5,hos.size());
+        List<Hospitals> hos = hospitalService.findAll();
         assertNotNull(hos);
+        assertEquals(6,hos.size());
     }
 
     @Test
     public void findById() {
-        int hid=1;
-        Hospitals hospitals=hospitalService.findById(hid);
+        int hid = 1;
+        Hospitals hospitals = hospitalService.findById(hid);
+        assertNotNull(hospitals);
         assertEquals(1,hospitals.getHid());
-        assertNotNull(hospitals.getHid());
     }
 
 //    @Test
@@ -43,8 +42,8 @@ public class HospitalServiceTest {
 
     @Test
     public void save() {
-        Hospitals hospitals=new Hospitals(3,"AC Hospital","Coimbatore");
-        Hospitals hos=hospitalService.save(hospitals);
+        Hospitals hospitals = new Hospitals(3,"AC Hospital","Coimbatore");
+        Hospitals hos = hospitalService.save(hospitals);
         assertEquals(hos,hospitals);
     }
 }

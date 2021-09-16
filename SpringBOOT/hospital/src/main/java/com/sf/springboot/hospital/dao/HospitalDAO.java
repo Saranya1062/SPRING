@@ -8,7 +8,10 @@ public interface HospitalDAO {
 
     public List<Hospitals> findAll();
 
-    public Hospitals findContent(String h_id);
+    public List<String> findName(String data);
 
-    public Hospitals findById(int hid);
+    public List<String> findCon(String data);
+
+    public Hospitals findContent(String data);
+
 }
