@@ -32,8 +32,9 @@ public class HospitalServiceImpl implements HospitalService{
 
     @Override
     @Transactional
-    public void save(Hospitals theHospital) {
+    public Hospitals save(Hospitals theHospital) {
         hospitalDAO.save(theHospital);
+        return theHospital;
     }
 
     @Override

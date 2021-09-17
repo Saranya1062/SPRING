@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>JQuery</h2>
+
+<h3>All Hospitals:</h3>
+<div id="demo">
+    <button id="all">Get All</button><br><br>
+</div>
+
+<h3>Hospitals by Id:</h3>
+<div id="id">
+    <input type="text" id="hid">
+    <button id="one" onclick="setTimeout(getId, 6000);">Get By Id</button><br><br>
+</div>
+
+<h3>Hospitals by Name:</h3>
+<div id="name">
+    <input type="text" id="hname">
+    <button id="two" onclick="setTimeout(getName, 10000);">Get By Name</button>
+</div>
+
+<script>
+    $(document).ready(function(){
+      $("#all").click(function(){
+        $("#demo").load("http://localhost:8080/api/hospital");
+      });
+    });
+
+    $(document).ready(function(){
+      $("#one").click(function(){
+      var id=$("#id").val();
+        $("#id").load("http://localhost:8080/api/hospital/id/+id");
+      });
+    });
+
+    $(document).ready(function(){
+      $("#two").click(function(){
+      var name=$("#name").val();
+        $("#name").load("http://localhost:8080/api/hospital/name/+name");
+      });
+    });
+</script>
+
+</body>
+</html>

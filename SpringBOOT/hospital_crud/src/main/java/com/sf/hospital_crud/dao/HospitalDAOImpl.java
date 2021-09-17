@@ -44,9 +44,10 @@ public class HospitalDAOImpl implements HospitalDAO {
     }
 
     @Override
-    public void save(Hospitals theHospital) {
+    public Hospitals save(Hospitals theHospital) {
         Session currentSession = entityManager.unwrap(Session.class);
-        currentSession.saveOrUpdate(theHospital);
+        currentSession.save(theHospital);
+        return theHospital;
     }
 
     @Override

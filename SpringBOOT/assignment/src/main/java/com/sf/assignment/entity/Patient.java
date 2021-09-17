@@ -1,8 +1,8 @@
-//package com.sf.assignment.entity;
-//
-//import javax.persistence.*;
-//import java.util.List;
-//
+package com.sf.assignment.entity;
+
+import javax.persistence.*;
+import java.util.List;
+
 //@Entity
 //@Table(name="patients")
 //public class Patient {

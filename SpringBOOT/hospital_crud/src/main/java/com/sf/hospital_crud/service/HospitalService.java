@@ -10,7 +10,7 @@ public interface HospitalService {
 
     public Hospitals findById(int theId);
 
-    public void save(Hospitals theHospital);
+    public Hospitals save(Hospitals theHospital);
 
     public void deleteById(int theId);
 }

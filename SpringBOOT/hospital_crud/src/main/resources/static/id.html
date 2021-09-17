@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="getAll('http://localhost:8080/api/hospital', 'demo')">
+
+<h2>HOSPITAL DATA'S BY ID</h2>
+
+<h3>All Hospitals:</h3>
+<div id="all">
+    <button type="button" onclick="getAll('http://localhost:8080/api/hospital', 'all')">Get All</button><br><br>
+</div>
+
+<div>
+    <h3 id="demo">Hospitals by Id:</h3>
+    <button type="button" onclick="getId('http://localhost:8080/api/hospital/id/'+formatUrl('find'), 'display')">Get</button>
+</div>
+
+<div>
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+</div>
+
+<br><br>
+<p id="display"></p>
+
+<script>
+function getId(restApi,target) {
+
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+      const myObj = JSON.parse(this.responseText);
+      let data = "<table border=1>"
+      for (let x in myObj) {
+         data += "<tr><td>" + myObj[x].hid +"</td><td>"+ myObj[x].hname +"</td><td>" + myObj[x].location + "</td><td>"+ myObj[x].patients.pname +"</td><td>"+ myObj[x].patients.age+"</td></tr>";
+      }
+      data += "</table>"
+      document.getElementById(target).innerHTML = data;
+    }
+      xmlhttp.open("GET",restApi);
+      xmlhttp.send();
+}
+
+function formatUrl(hosid) {
+    return document.getElementById(hosid).value;
+}
+
+function getAll(restApi,target) {
+
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+      const myObj = JSON.parse(this.responseText);
+      let text = "<select id='find'>"
+      for (let x in myObj) {
+         text += "<option value=" + myObj[x].hid + ">" + myObj[x].hname + "</option>";
+      }
+      text += "</select>"
+      document.getElementById(target).innerHTML = text;
+    }
+      xmlhttp.open("GET",restApi);
+      xmlhttp.send();
+}
+
+</script>
+
+</body>
+</html>
