@@ -33,8 +33,6 @@ public class HospitalRestControllerTest {
     @Test
     public void throwsExceptionForNameIsNull() {
         Hospitals hospitals = new Hospitals(4,null,"Chennai");
-  //    Hospitals hos=null;
-  //    assertThrows(NullPointerException.class, () -> hospitalRestController.addHospital(hos));
         assertThrows(DataIntegrityViolationException.class ,() -> {
             hospitalRestController.addHospital(hospitals);
         });

@@ -34,12 +34,6 @@ public class HospitalServiceTest {
         assertEquals(1,hospitals.getHid());
     }
 
-//    @Test
-//    public void save() {
-//        Hospitals hospitals=new Hospitals(4,"KMCH","Chennai");
-//        hospitalService.save(hospitals);
-//    }
-
     @Test
     public void save() {
         Hospitals hospitals = new Hospitals(3,"AC Hospital","Coimbatore");

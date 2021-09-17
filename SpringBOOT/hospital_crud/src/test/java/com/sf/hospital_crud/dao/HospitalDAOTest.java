@@ -36,14 +36,8 @@ public class HospitalDAOTest {
 
     @Test
     public void save() {
-       Hospitals hospitals = new Hospitals(6,"Apollo","Chennai");
-       hospitalDAO.save(hospitals);
+        Hospitals hospitals=new Hospitals(4,"Sri Hospital","Chennai");
+        Hospitals hos=hospitalDAO.save(hospitals);
+        assertEquals(hos,hospitals);
     }
-
-//    @Test
-//    public void save() {
-//        Hospitals hospitals=new Hospitals(4,"Sri Hospital","Chennai");
-//        Hospitals hos=hospitalDAO.save(hospitals);
-//        assertEquals(hos,hospitals);
-//    }
 }

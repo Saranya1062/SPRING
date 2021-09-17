@@ -47,12 +47,8 @@ public class HospitalRestController {
 
     @PostMapping("/hospital")
     public Hospitals addHospital(@RequestBody Hospitals theHospital) {
-//        try {
             theHospital.setHid(0);
             hospitalService.save(theHospital);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
         return theHospital;
     }
 
